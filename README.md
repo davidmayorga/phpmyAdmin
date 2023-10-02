@@ -53,5 +53,7 @@ o se puede utilizar el operador `OR`
 5. Se desea obtener los registros cuya identificación sea menor de 110 y la ciudad sea cali, se debe utilizar el operador `AND`
 
 `SELECT * FROM cliente WHERE identificacion<=110 AND ciudad = 'Cali'`
+![Consulta5](./img/consulta5.png "Consulta 5")
+
 
 
