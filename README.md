@@ -34,3 +34,4 @@ direccion, telefono, ciudad_nac, fecha_nac FROM Cliente`
 
 ![Consulta3](./img/consulta3.png "Consulta 3")
 
+### Consulta No. 4
