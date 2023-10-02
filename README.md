@@ -35,3 +35,23 @@ direccion, telefono, ciudad_nac, fecha_nac FROM Cliente`
 ![Consulta3](./img/consulta3.png "Consulta 3")
 
 ### Consulta No. 4
+
+4.  Se desea obtener los registros cuyos apellidos sean vanegas o cetina, se deba utilizar el operador `IN` que especifica los registros que se quieren visualizar de una tabla. 
+
+SELECT apellidos, nombre FROM `cliente` WHERE apellidos IN('Vanegas', 'Cetina');
+![Consulta4_1](./img/consulta4_1.png "Consulta 4_1")
+
+
+o se puede utilizar el operador `OR`
+
+`SELECT apellidos FROM cliente WHERE apellidos = 'Vanegas'OR apellidos = 'Cetina'`
+![Consulta4_2](./img/consulta4_2.png "Consulta 4_2")
+
+
+### Consulta No. 5
+
+5. Se desea obtener los registros cuya identificación sea menor de 110 y la ciudad sea cali, se debe utilizar el operador `AND`
+
+`SELECT * FROM cliente WHERE identificacion<=110 AND ciudad = 'Cali'`
+
+
