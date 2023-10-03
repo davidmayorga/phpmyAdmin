@@ -80,3 +80,11 @@ o se puede utilizar el operador `OR`
 
 ![Consulta8](./img/consulta8.png "Consulta 8")
 
+### Consulta No. 9 
+
+9. Si se desea T los registros cuya identificacion esté entre el intervalo 110 y 150, se debe utilizar la cláusula `BETWEEN`, que sirve para especificar un intervalo de valores.
+
+`SELECT * FROM cliente WHERE identificacion BETWEEN 110 AND 150`
+
+![Consulta9](./img/consulta9.png "Consulta 9")
+
