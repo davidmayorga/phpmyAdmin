@@ -57,3 +57,11 @@ o se puede utilizar el operador `OR`
 
 
 
+### Consulta No. 6
+
+6. Si desea obtener los registros cuyos nombres empiecen por la letra 'A' , se debe utilizar el operador `LIKE` que utiliza los patrones `%` (Todos) y `_`(caracter)
+
+`SELECT * FROM `cliente` WHERE nombre LIKE 'A%'`
+![Consulta6](./img/consulta6.png "Consulta 6")
+
+
